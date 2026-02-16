@@ -5,6 +5,10 @@ const app = express();
 
 const PORT = 5001
 
+app.get("/api/notes", (req,res) => {
+    res.send("you got 5 notes");
+})
+
 app.listen(PORT, () => {
     console.log(`Server started on PORT: ${PORT}`)
 })
