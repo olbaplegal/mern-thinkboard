@@ -6,7 +6,7 @@ const app = express();
 const PORT = 5001
 
 app.get("/api/notes", (req,res) => {
-    res.send("you got 5 notes");
+    res.send("you got 11 notes");
 })
 
 app.listen(PORT, () => {
